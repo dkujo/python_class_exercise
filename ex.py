@@ -159,9 +159,5 @@ f2.relocate_passenger('5B','1A')
 f2._seating
 f2.num_avaiable_seats()
     
-    
-f2.make_boarding_pass(console_card_printer)    
-    
-    
-    
-        
+# printer test   
+f2.make_boarding_pass(console_card_printer) 
