@@ -129,7 +129,38 @@ def console_card_printer(passenger, seat, flight_no, aircraft):
     print(card)
     print()
     
+
     
+    
+    
+a = Aircraft('DK','A380', n_rows=22, n_seats_per_row=6)
+#a.registration()
+#a.model()
+a.seating_plan()
+    
+#f = Flight('BC455',a)
+f2 = Flight('DD777',Aircraft('hh','f45',20,5) )
+
+#f.number()
+#f.airline()
+
+#f.aircraft_model()
+
+#f2.number()
+#f2.airline()
+#f2.aircraft_model()
+
+#f2._seating
+
+f2.allocate_seat('7A', 'Domagoj')
+f2.allocate_seat('5B', 'MArko')
+f2._seating
+f2.relocate_passenger('5B','1A')
+f2._seating
+f2.num_avaiable_seats()
+    
+    
+f2.make_boarding_pass(console_card_printer)    
     
     
     
